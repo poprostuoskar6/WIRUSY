@@ -1,13 +1,14 @@
 ## ⚠️ WAŻNE INSTRUKCJE ⚠️
 
 # BEZPIECZNE POBIERANIE Z MEGA
+## Z RACJI ŻE TE PLIKI SĄ DOŚĆ SPORE TO MACIE TUTAJ [MEGA](https://mega.nz/folder/MM0zxbaI#ogAK3udFHKs7Wjn5XxFCng)
 
 ## WERYFIKACJA BEZPIECZEŃSTWA
 Przed pobraniem **ZAWSZE** sprawdź pliki:
 🔗 [VIRUSTOTAL LINK](https://www.virustotal.com/gui/url/b342d1db16708f2d3c68b5bfddb23ed48306610e9c56956110a4edaf779d21b0?nocache=1)
 
 ## METODA 1: POBIERANIE RĘCZNE (NAJPROSTSZE)
-1. Kliknij w link: [https://mega.nz/folder/MM0zxbaI#ogAK3udFHKs7Wjn5XxFCng](https://mega.nz/folder/MM0zxbaI#ogAK3udFHKs7Wjn5XxFCng)
+1. Kliknij w link: [MEGA](https://mega.nz/folder/MM0zxbaI#ogAK3udFHKs7Wjn5XxFCng)
 2. Wybierz "Download as ZIP"
 3. Poczekaj na przygotowanie archiwum
 4. Zapisz plik na dysku
@@ -54,14 +55,3 @@ megadl 'https://mega.nz/folder/MM0zxbaI#ogAK3udFHKs7Wjn5XxFCng' --path ./pobrane
 - Kali Linux działa jako root - rozważ użycie zwykłego użytkownika
 - Zawsze sprawdzaj pliki na VirusTotal przed uruchomieniem
 - Pobieraj tylko z zaufanych źródeł
-
-```
-
-Zmiany:
-1. Wyraźne rozdzielenie metod pobierania
-2. Tabela z lokalizacją plików
-3. Większy nacisk na bezpieczeństwo
-4. Przycisk bezpośredni do VirusTotal
-5. Prostsza nawigacja dzięki emoji i formatowaniu
-6. Usunięto zbędne powtórzenia
-7. Dodano ostrzeżenia przed uruchamianiem plików
