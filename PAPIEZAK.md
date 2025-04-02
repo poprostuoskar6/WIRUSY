@@ -1,66 +1,61 @@
-Oto instrukcja uruchomienia projektu Papiezak na podstawie struktury plików:
+# 📌 Instrukcja Uruchomienia Papiezak Krok po Kroku (dla Każdego!)
 
-```markdown
-# Instrukcja uruchomienia Papiezak (C# WPF)
+## 🛠️ **Potrzebne Rzeczy:**
+1. Komputer z **Windows 10/11** (nie działa na telefonie!)
+2. Połączenie z internetem
+3. 15 minut czasu
 
-## Wymagania wstępne
-- [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework/net472) lub nowszy
-- Visual Studio 2019+ (lub samodzielny kompilator)
-- System Windows (WPF nie jest w pełni kompatybilny z Linux)
+## 📥 **KROK 1: Pobierz Programy (jak w grze!)**
+### a) Pobierz Visual Studio (to takie pudełko z narzędziami):
+- Kliknij tutaj: [Pobierz Visual Studio](https://visualstudio.microsoft.com/pl/)
+- Wybierz **"Community 2022"** → POBIERZ 
 
-## 1. Klonowanie repozytorium
-```cmd
-git clone https://github.com/xProsek720/Papiezak.git
-cd Papiezak
-```
+### b) Podczas instalacji:
+1. Zaznacz **".NET Desktop Development"**  
+2. Kliknij **"Install"** i czekaj (może zająć 30+ minut)
 
-## 2. Kompilacja projektu
-Otwórz rozwiązanie w Visual Studio:
-1. Otwórz `Papiezak.csproj`
-2. Zainstaluj brakujące pakiety NuGet (jeśli wymagane)
-3. Skompiluj rozwiązanie (Ctrl + Shift + B)
+## 📂 **KROK 2: Weź Projekt z GitHub (jak ściąganie zdjęć!)**
+1. Otwórz ten link: [Papiezak GitHub](https://github.com/xProsek720/Papiezak)
+2. Kliknij **ZIELONY przycisk "Code"** → **"Download ZIP"**  
+3. Zapisz plik na Pulpicie (łatwo znajdziesz!)
 
-## Alternatywnie przez CLI (Windows):
-```powershell
-msbuild /p:Configuration=Release
-```
+## 🗜️ **KROK 3: Wypakuj Paczkę (jak rozpakowanie zakupów)**
+1. Kliknij prawym przyciskiem na pobrany plik **Papiezak-main.zip**
+2. Wybierz **"Extract All..."**
+3. Wybierz folder **"Papiezak"** na Pulpicie
 
-## 3. Uruchomienie aplikacji
-Po kompilacji znajdziesz plik wykonywalny w:
-```
-Papiezak\bin\Release\Papiezak.exe
-```
+## 🛠️ **KROK 4: Otwórz Projekt (jak włączanie telewizora)**
+1. Wejdź do folderu **Papiezak**
+2. Kliknij **DWUKROTNIE** na plik **Papiezak.sln**
+3. Jeśli spyta o zaufanie → **"OK"**
 
-## W przypadku problemów
-### Brakujące zależności:
-- Zainstaluj [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)
-- Włącz .NET Framework 3.5/4.7 w funkcjach systemu Windows
+## 🔨 **KROK 5: Zbuduj Aplikację (jak pieczenie ciasta!)**
+W Visual Studio:
+1. Na górze znajdź **ZIELONĄ STRZAŁKĘ** → kliknij
+2. Czekaj aż na dole pojawi się **"Build succeeded"**
 
-### Błędy kompilacji:
+## 🚀 **KROK 6: Uruchom Program (HURA!)**
+1. Po kompilacji znajdź folder:  
+`Papiezak\bin\Release`
+2. Kliknij dwukrotnie **Papiezak.exe**  
 
-nuget restore
-msbuild /t:Clean /t:Rebuild
+## ❗ **WAŻNE! Jeśli coś nie działa:**
+### 🔴 Problem: "Brak .NET Framework"
+- Pobierz tutaj: [.NET Framework 4.8](https://dotnet.microsoft.com/pl-pl/download/dotnet-framework/net48)
+- Uruchom instalator i restartuj komputer
 
-## Ważne uwagi
-1. Projekt zawiera komponenty WPF - wymaga systemu Windows
-2. Pliki w folderze Properties to konfiguracje assembly
-3. Sprawdź czy masz aktualną wersję [Git](https://git-scm.com/)
+### 🔴 Problem: "Nie można znaleźć pliku"
+- Sprawdź czy na pewno jesteś w folderze **Release**
+- Jeśli nie ma → wróć do Kroku 5 i upewnij się, że kompilacja się udała
 
-## Bezpieczeństwo
-Przed uruchomieniem sprawdź:
-- Zawartość plików *.cs pod kątem niestandardowych funkcji
-- Konfigurację w Settings.settings
-- Zależności w Papiezak.csproj
+### 🔴 Problem: "Błąd bezpieczeństwa"
+- Przed uruchomieniem sprawdź plik tutaj: [VirusTotal](https://www.virustotal.com)
+- Jeśli program jest bezpieczny → w ustawieniach Windows wyłącz chwilowo ochronę
 
-⚠️ Aplikacja może wymagać uprawnień administracyjnych do niektórych operacji!
-```
+## 📝 **Dodatkowe Tipy:**
+- Jeśli nie rozumiesz słów: "repozytorium", "kompilacja" → po prostu ściśle podążaj za obrazkami!
+- Program może potrzebować dostępu do internetu → daj mu pozwolenie w firewall
+- Autor może mieć nowszą wersję → sprawdź datę ostatniej aktualizacji na GitHub
 
-Dokładne kroki mogą się różnić w zależności od:
-- Wersji systemu operacyjnego
-- Konfiguracji środowiska developerskiego
-- Celu poszczególnych komponentów (np. WatchDog.cs, bowserKiller.cs)
-
-Zalecana ścieżka dla użytkowników Linux:
-1. Użyj maszyny wirtualnej z Windows
-2. Lub skonwertuj projekt na .NET Core/Mono
-3. Dostosuj kod do kompatybilności z Linux
+## ☎️ **Potrzebujesz Pomocy?**
+Napisz do autora tutaj: [Issues na GitHub](https://github.com/xProsek720/Papiezak/issues)
